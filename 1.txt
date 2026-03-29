@@ -1,0 +1,65 @@
+/**
+ * Calculates the time and space complexity of an algorithm or function.
+ *
+ * @remarks
+ * This function analyzes the input and determines the computational complexity in terms of time and space.
+ *
+ * @returns {Object} An object containing the time complexity and space complexity, typically in Big O notation.
+ *
+ * @example
+ * const result = complexityTimeSpace(someFunction);
+ * console.log(result.time); // e.g., "O(n)"
+ * console.log(result.space); // e.g., "O(1)"
+
+ * Calculates the time complexity of the given algorithm.
+ *
+ * Time Complexity:
+ * - The time complexity describes how the runtime of the algorithm grows as the input size increases.
+ * - It is typically expressed using Big O notation (e.g., O(1), O(n), O(log n), O(n^2)), which characterizes the upper bound of the algorithm's growth rate.
+ * - The order of growth refers to how the number of operations increases relative to the input size.
+ *   - Constant time: O(1) – The algorithm takes the same amount of time regardless of input size.
+ *   - Linear time: O(n) – The runtime increases proportionally with the input size.
+ *   - Logarithmic time: O(log n) – The runtime increases logarithmically as the input size grows.
+ *   - Quadratic time: O(n^2) – The runtime increases with the square of the input size.
+ *
+ * Why this is the best approach:
+ * - Analyzing time complexity helps in selecting the most efficient algorithm for a given problem.
+ * - Algorithms with lower order of growth (e.g., O(n) vs. O(n^2)) are generally preferred, as they scale better with larger inputs.
+ * - Understanding time complexity allows developers to predict performance bottlenecks and optimize code accordingly.
+
+ * Order of Growth:
+ *   - Order of growth describes how the running time or space requirements for an algorithm increase as the input size increases.
+ *   - For example, an algorithm with O(n) time complexity will take twice as long if the input size doubles, while O(1) remains constant regardless of input size.
+ * 
+ * Why Time Complexity Analysis is the Best Approach:
+ *   - Analyzing time complexity allows developers to predict the scalability and efficiency of algorithms.
+ *   - It helps in comparing different algorithms and choosing the most optimal one for a given problem.
+ *   - It abstracts away hardware and implementation details, focusing on the fundamental efficiency of the algorithm.
+ */
+
+
+/**
+ * Calculates the best, average, and worst case time complexities for the given algorithm.
+ *
+ * - **Best Case:** The minimum amount of time the algorithm takes to complete, typically when the input is in the most favorable state.
+ * - **Average Case:** The expected time the algorithm takes over all possible inputs of a given size, often calculated using probability and statistical analysis.
+ * - **Worst Case:** The maximum amount of time the algorithm could take, typically when the input is in the least favorable state.
+ *
+ * Time complexity is usually measured in terms of the number of basic operations (such as comparisons or assignments) as a function of the input size (n), and is expressed using Big O notation (e.g., O(1), O(n), O(n^2)).
+ */
+
+/**
+ * How Big O Measures Complexity:
+ *
+ * Big O notation measures the upper bound of an algorithm's growth rate as the input size increases.
+ * It abstracts away constant factors and lower-order terms, focusing on the dominant term that affects scalability.
+ *
+ * - It describes the relationship between input size (n) and the number of operations or space required.
+ * - For example, O(n) means the algorithm's runtime grows linearly with input size, while O(n^2) means it grows quadratically.
+ * - Big O provides a worst-case scenario, ensuring performance guarantees regardless of specific input.
+ *
+ * In summary, Big O measures how efficiently an algorithm scales and helps compare different algorithms' performance.
+ */
+
+
+ https://youtu.be/f9Aje_cN_CY?si=OTe0-TaYHKPRpTcO
